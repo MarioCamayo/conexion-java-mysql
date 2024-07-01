@@ -28,6 +28,7 @@ public class ConexionMysql {
               
               
            }
+          // Se coloca una Excepciòn para validar los errores.
            catch(SQLException  e){
                 System.out.println("No conectado a la base de datos" + e.getMessage());
                 e.printStackTrace();
